@@ -1,0 +1,100 @@
+.search-bar {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.gallery {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.map {
+    display: flex-start;
+    width: 10%;
+    height: 90px;
+}
+  
+
+@keyframes example {
+    0%   {margin-left: 0px;}
+    100% {margin-left: 200px;}
+}
+
+#animated-text {
+    width: 250px;
+    height: 50px;
+    
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+
+
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+body {
+    background-image: url('images/juho-luomala-Y0FuCEiLw_M-unsplash (1).jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #008000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.content {
+    margin: 15px;
+}
+.footer {
+    background-color: #008000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+p{
+   color:#ddd;
+
+}
+
